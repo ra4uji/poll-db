@@ -3,6 +3,7 @@ const DataStore = require("nedb");
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
+
 // Самая простая база данных, что я нашел
 
 const db = new DataStore({ filename: "posts.db", autoload: true });
@@ -64,4 +65,4 @@ app.post("/post", (request, response) => {
 
 
 
-app.listen(3001, () => console.log("listening"));
+app.listen(8080, () => console.log("listening"));
