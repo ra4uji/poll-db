@@ -62,7 +62,6 @@ app.post("/post", (request, response) => {
         body: 'ok'
     });
 });
-ы
 
 
 app.listen(() => console.log("listening"));
